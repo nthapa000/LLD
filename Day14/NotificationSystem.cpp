@@ -317,7 +317,7 @@ int main(){
     
     // send all three type of notification
     notificationService->sendNotification(notification);
-
+    // Clean up
     delete logger;
     delete notificationEngine;
     return 0;
